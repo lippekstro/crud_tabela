@@ -1,0 +1,15 @@
+vai na pasta inicializa o git
+	git init
+vai na sua conta do git e cria o repositorio
+--
+adiciona os arquivos na area de preparacao do git
+	git add --all
+faça as configuracoes
+	git config user.email "seu email"
+	git config user.name "seu username"
+de o commit
+	git commit -m "alguma mensagem"
+adicione o repositorio
+	git remote add origin seu_link
+depois de o push do repositorio local para o repositorio remoto
+	git push -u origin master
